@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Paper1"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="66dp"
+        android:text="Home"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/button15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button15"
+        tools:ignore="MissingConstraints">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="RESEARCH ARTICLE 1" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView23"
+
+                android:text="Challenges in Android Application Development: A Case Study" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/textView24"
+                android:text="By Abhinav Kathuria1 , Anu Gupta2 (May 2015)" />
+
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView25"
+                android:text="Nowadays, technology is increasingly used by human being in every field. As people move from one place to another, many wireless technologies are available to remain in contact with others, without regard of the location. The increasing popularity of Smart Phones has drawn the attention of almost everybody. Along with making and receiving calls, users can send and receive messages, access the Internet, digital media, incorporate audio/video recording etc. Smart Phones also contain built-in keyboard, high resolution camera, front side camera for video conferencing, touch screen etc. Different smart phones have different operating systems. A mobile app, short for mobile application or just app is an application which runs on smart phones, tablet or mobile phones.However there are many challenges in android development.Based upon personal experience in developing iquiz and available literature, the following are the challenges faced by the
+Android App developers:
+A. Multiple Devices: The most common challenge is to set the properties of app for different devices with different screen
+sizes, resolution etc. There are many versions of each android device and while releasing the app, version specific details
+need to be checked this makes the task very critical. As it need to be run in different devices, therefore it also affects the
+cost and budget implications. For each version of Android, developer has to write code again because there are migration
+problem available to migrate the existing code to new platform. Sometimes, behavior is also different across new platform.
+B. Testing of Android Application: Currently, the Development Environment does not have enough tools for testing. There
+is a need of testing techniques for the Android Platform. Also debugging features must be made available.
+C. Limited Capabilities of Different Devices: Sometimes different devices have different capabilities in terms of software
+support like some browsers has poor support for HTML5.
+D. Emulators/Simulators Problem: Emulators are the devices which provides us hardware environment of Android Devices
+while Simulators provide us the software environment. Apps are tested on the emulators which are not enough for testing.
+Emulators are very slow and take a lot of time to start and run.
+E. Data Intensive Apps: Since Mobile Devices have very limited memory, so it is very difficult to store huge amount of data
+in it. Offline caching doesn’t work well and synchronizing with another data source is a challenging task.
+F. Lack of Software/Hardware Integration: One Button on Android device works differently on another device. So it is
+difficult to build an app that relies on a particular hardware to do a thing.
+G. Security Issue: Since Android is an open Source operating system so there can be malware Apps which users can install
+by mistake or by any other reason that can lead to loss of data." />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+

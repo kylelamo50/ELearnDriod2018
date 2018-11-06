@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ELearnDriod2018</string>
+    <string name="welcome_to_androd">Welcome to androd</string>
+    <string name="andriod_is_an_operating_system_based_on_the_linux_kernel_it_was_designed_primarily_for_mobile_devices_with_touch_screen_such_as_smartphones_tablets_and_also_for_smart_watches_televisions_and_cars">Andriod is an operating system based on the Linux kernel . It was designed primarily for mobile devices with touch screen , such as smartphones , tablets and also for smart watches , televisions and cars</string>
+    <string name="todo">TODO</string>
+
+
+    <string-array name="Components">
+        <item>ANDRIOD COMPONENTS</item>
+        <item>Toast</item>
+        <item>DatePicker </item>
+        <item>ImageView</item>
+        <item>ListView</item>
+        <item>Spinner</item>
+        <item>EditText</item>
+        <item>Button</item>
+        <item>NumberPicker</item>
+
+    </string-array>
+</resources>
+

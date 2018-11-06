@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Paper2"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="89dp"
+        android:text="Home"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/button16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button16"
+        tools:ignore="MissingConstraints">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="RESEARCH ARTICLE 2" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView27"
+
+                android:text="Android Mobile Application Build on Eclipse" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/textView28"
+                android:text="Garima Pandey*, Diksha Dani (Feburary 2014)" />
+
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView29"
+                android:text="Android is now the most used mobile operating
+system in the world. Android now has more users, more phones
+and more tablets worldwide than any other mobile operating
+system. The Google Play app store has been growing at
+breakneck speed and with almost as many apps as the Apple app
+store. This, for entrepreneurs and developers, is the chance of a
+lifetime to make even more money and reach an even broader
+audience base.
+This paper gives a complete knowledge of how to start working
+on eclipse and develop an application and get it run on emulator.Android is a Linux-based, open source mobile operating
+system developed by Open Handset Alliance led by Google
+to develop apps for Android devices. To start with we use a set of
+tools that are included in the Android SDK. Once we have
+downloaded and installed the SDK, we can access these tools
+right from our Eclipse IDE, through the ADT plug-in, or from
+the command line. Developing with Eclipse is the preferred
+method because it can directly invoke the tools that we need
+while developing applications.The development steps encompass four development phases,
+which include:
+ Setup: During this phase we install and set up our
+development environment. We also create Android
+Virtual Devices (AVDs) and connect hardware devices,
+on which we can install our applications.
+ Development: During this phase we set up and develop
+our Android project, which contains all of the source
+code and resource files for our application.
+ Debugging and Testing: During this phase we build our
+project into a debug gable .apk package that we can
+install and run on the emulator.
+ Publishing: During this phase we configure and build
+our application for release and distribute our application
+to users.ECLIPSE
+ Eclipse is an integrated development environment (IDE). It
+contains a base workspace and an extensible plug-in system for
+customizing the environment. Written mostly in Java, Eclipse
+can be used to develop applications in Java.
+The initial codebase originated from IBM. The Eclipse software
+development kit (SDK), which includes the Java development tools, is meant for Java developers. Users can extend its abilities
+by installing plug-ins written for the Eclipse Platform, such as
+development toolkits for other programming languages, and can
+write and contribute their own plug-in modules.CONCLUSION
+Our objective behind this paper presentation was to discuss all
+basic details to start android application and to overcome the
+technical jargons which come as a big constraint on the way of
+beginner programmer.
+Simplicity was the major factor in explaining all installation
+process of eclipse and a simple android application, which will
+give a bust to all aspiring android developers. " />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
